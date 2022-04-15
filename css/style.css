@@ -1,0 +1,16 @@
+.container {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 20px;
+}
+
+.radius {
+    background: black;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
