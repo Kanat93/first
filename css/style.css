@@ -2,11 +2,13 @@ body {
     display: grid;
     grid-template-areas: 
     "header header header"
-    "main sidebar-1 sidbar-2"
+    "sidebar-1 main sidbar-2"
     "footer footer footer";
     grid-gap: 10px;
     height: 100vh;
     margin: 0;
+    grid-template-rows: 60px 1fr 100px;
+    grid-template-columns:  2fr 5fr 3fr;
 }
 
 
