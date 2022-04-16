@@ -3,7 +3,10 @@
     min-height: 300px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: flex-start;
+    align-content:flex-start;
 }
 
 .item {
@@ -16,14 +19,22 @@
 }
 
 .h200 {
-    height: 200px;
+    /* height: 200px; */
 
 }
 
 .h150 {
-    height: 150px;
+    /* height: 150px; */
 }
 
 .h250 {
-    height: 250px;
+    /* height: 250px; */
+}
+
+.text-item {
+    order: 2;
+}
+
+.text-item-2 {
+    order: 1;
 }
