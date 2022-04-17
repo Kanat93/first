@@ -39,3 +39,30 @@ div.clear::after {
     display: block;
     clear: both;
 }
+
+a {
+    display: block;
+    background: orange;
+    width: 100px;
+    transition: all ease 1s;
+}
+
+a:hover {
+    color: green;
+    background: burlywood;
+    width: 150px;
+}
+
+input {
+    margin: 50px;
+}
+
+input:active {
+    background: orange;
+}
+
+input:focus {
+    background: orange;
+    border: 1px solid #222;
+    border-radius: 0;
+}
