@@ -10,4 +10,32 @@ p::after {
     content:'***';
     display: block;
     text-align: center;
+    margin: 20px auto;
+}
+
+.wrap {
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    background: blueviolet;
+}
+
+.left, .right {
+    float: left;
+    width: 50%;
+    min-height: 200px;
+}
+
+.left {
+    background: blue ;
+}
+
+.right {
+    background: red;
+}
+
+div.clear::after {
+    content: "";
+    display: block;
+    clear: both;
 }
