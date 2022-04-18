@@ -9,41 +9,61 @@
 </head>
 
 <body>
-  <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus ducimus iste eum provident fuga nobis alias et voluptatem sapiente. Pariatur tenetur vero repellendus corrupti reprehenderit sunt quisquam porro incidunt!</p>
-  <p><span>Lorem ipsum dolor sit amet, <a href="http://google.com">consectetur adipisicing elit</a> . Laudantium rem nulla minus cumque fugiat perferendis distinctio eaque ab eius odit sunt, deserunt inventore aliquid corporis asperiores eum illo repudiandae temporibus.</span></p>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo quod maxime, deleniti porro dolor neque ullam eius sint. Vero deserunt distinctio porro consectetur? Necessitatibus aspernatur ad itaque, provident quidem qui.
-  </p>
+  <form action="#" method="get" enctype="multipart/form-data">
+    <div>
+      <p>Имя</p>
+      <input type="text" name="name" tabindex="1" placeholder="Имя">
+    </div>
+    <div>
+      <p>Пароль</p>
+      <input type="password" name="password" tabindex="2" placeholder="Пароль">
+    </div>
 
-  <h2>Lorem ipsum dolor sit amet.</h2>
+    <div>
+      <p>Телефон:</p>
+      <input type="tel" name="tel" tabindex="3">
+    </div>
 
-  <ol>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem, ipsum.</li>
-  </ol>
+    <div>
+      <p>Пол</p>
+      <div>
+        <input type="radio" name="radio" value="M" checked tabindex="4">Мужской
+      </div>
+      <div>
+        <input type="radio" name="radio" value="J" tabindex="4">Женской
+      </div>
+    </div>
 
-  <h2>Lorem, ipsum.</h2>
+      <div>
+        <p>Имущество</p>
+        <div><input type="checkbox" name="bike" value="yes" checked tabindex="5">Велик</div>
+        <div><input type="checkbox" name="car" value="yes" tabindex="6">Машина</div>
+        <div><input type="checkbox" name="home" value="yes" disabled tabindex="7">Дом</div>
+      </div>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-  <img src="./images/solnse.png" alt="">
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error excepturi ratione, sequi obcaecati adipisci possimus quas officia dolor veniam, reprehenderit tenetur consequatur unde quis magnam tempore, dignissimos doloribus expedita explicabo!</p>
+      <div><textarea name="text" tabindex="8"></textarea></div>
 
-  <h2>Lorem ipsum dolor sit.</h2>
+      <div>
+        <p>Прикрепить фото</p>
+        <input type="file" name="file" tabindex="9">
+      </div>
 
-  <ul>
-    <li>Lorem, ipsum dolor.</li>
-    <li>Aperiam, quam laboriosam.</li>
-    <li>Assumenda, doloremque obcaecati.</li>
-    <li>Illo, laudantium consectetur.</li>
-    <li>Quod, consequuntur quaerat.</li>
-  </ul>
+      <div>
+        <p>Любимый цвет</p>
+        <select name="color">
+          <option value="red">Красный</option>
+          <option value="blue">Синии</option>
+          <option selected value="green">Зеленый</option>
+        </select>
+      </div>
 
-  <h2>Lorem.</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt impedit pariatur repellendus laudantium accusantium porro placeat. Recusandae minima possimus iure tenetur, quos cum maxime nisi deserunt, aspernatur non aut?</p>
-</body>
+      <div>
+        <p>Действия</p>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+      </div>
+
+  </form>
+</body> 
 
 </html>
