@@ -33,18 +33,106 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-.example_block {
-
-	opacity: 0;
-	font-size: 20px;
+body {
+	padding: 30px;
 }
 
-.example_string {
-	
-	font-size: 20px;
+.block {
+	margin-bottom: 30px;
 }
 
-.expample_image {
-	border: 1px dashed #000;
-	width: 100px;
+.block p:first-child {
+	text-transform: uppercase;
+}
+
+.block p {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.link {
+	color: red;
+}
+
+.textinput {
+	border: 1px solid #666;
+	padding: 0 15px;
+	font-size: 18px;
+	width: 300px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.textinput:focus {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.btn {
+	display: block;
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.block p:nth-child() {
+	background-color: yellow;
+}
+
+.block p:nth-child(even) {
+	background-color: burlywood;
+}
+
+.btn:hover {
+	text-decoration: underline;
+	background-color: burlywood;
+	color: green;
+}
+
+.btn:active {
+	background-color: white;
+}
+
+
+.link:visited {
+	color: green;
+}
+
+
+.link:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.link:active {
+	color: yellow;
+}
+
+
+
+
+
+
+
+.list li {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+/* .list li:first-child {
+	color: greenyellow;
+}
+
+.list li:last-child {
+	color: blue;
+	font-weight: 700;
+} */
+
+.list li:nth-child(even) {
+	color: red;
+	text-transform: uppercase;
 }
