@@ -44,6 +44,7 @@ body {
 	max-width: 800px;
 	margin: 0px auto;
 	height: 800px;
+    position: relative;
 }
 
 .block div {
@@ -55,19 +56,23 @@ body {
 
 .block__1 {
 	background-color: #ece89d;
+    width: 50%;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
 
 .block__2 {
     background-color: #5e5373;
     color: white;
-    position: relative;
-    left: 50px;
-    top: 60px;
-    z-index: 3;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: absolute;
 }
 
 .block__3 {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     background-color: #18b5a4;
 }
